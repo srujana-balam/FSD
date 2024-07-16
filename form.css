@@ -1,0 +1,137 @@
+
+.FormBody{
+    font-size: 20px;
+    font-family: "Mukta", sans-serif;
+    margin-left: 25%;
+    margin-right: 20%;
+    color: white;
+    text-align: center;
+    background-image: url("https://i.pinimg.com/originals/e2/f6/ca/e2f6ca8b9d70379e167cc599b5deb524.jpg");
+    background-size: 100% 100%;
+    border-radius: 50px;
+    box-shadow: 2px 5px 3px 5px #aaaaaa;
+}
+table,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+td{
+    padding: 5px 10px;
+    color: white;
+}
+tr:hover{
+    background-color: rgb(194, 149, 237);
+}
+table{
+    border-radius: 15px;
+    overflow: hidden;
+}
+tr:first-child{
+    background-color: #1A2130;
+    font-weight: 600;
+}
+.inp1{
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 5%;
+    font-size: 18px;
+    font-family: "Noto Sans JP", sans-serif;
+    color: blue;
+    font-weight: bold;
+}
+.inp2{
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 80px;
+    font-size: 18px;
+    font-family: "Noto Sans JP", sans-serif;
+    color: blue;
+    font-weight: bold;
+}
+.inp3{
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 110px;
+    font-size: 18px;
+    font-family: "Noto Sans JP", sans-serif;
+    color: blue;
+    font-weight: bold;
+}
+.inp4{
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 100px;
+    font-size: 18px;
+    font-family: "Noto Sans JP", sans-serif;
+    color: blue;
+    font-weight: bold;
+}
+.inp5{
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 100px;
+    font-size: 18px;
+    font-family: "Noto Sans JP", sans-serif;
+    color: blue;
+    font-weight: bold;
+}
+.inp6{
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 150px;
+    font-size: 18px;
+    font-family: "Noto Sans JP", sans-serif;
+    color: blue;
+    font-weight: bold;
+}
+.inp7{
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 100px;
+    font-size: 18px;
+    font-family: "Noto Sans JP", sans-serif;
+    color: blue;
+    font-weight: bold;
+}
+.inp8{
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 150px;
+    font-size: 18px;
+    font-family: "Noto Sans JP", sans-serif;
+    color: blue;
+    font-weight: bold;
+}
+.inp9{
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 125px;
+    font-size: 18px;
+    font-family: "Noto Sans JP", sans-serif;
+    color: blue;
+    font-weight: bold;
+}
+.inp10{
+    margin-bottom: 5%;
+    margin-left: 140px;
+}

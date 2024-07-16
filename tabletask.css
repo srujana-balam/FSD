@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/021/583/370/non_2x/aesthetic-background-illustrations-of-clouds-stars-and-sky-with-purple-gradations-suitable-for-wallpapers-presentation-backgrounds-and-various-other-design-needs-free-vector.jpg");
+    background-size: 100% 100%;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.button {
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: #a94cf0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #4d0585;
+}
+
+.table-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Adjust number of columns */
+    gap: 1px;
+    background-color: #ccc;
+    margin-top: 20px;
+    max-width: 800px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.cell {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.cell:hover {
+    background-color: #f9f9f9;
+    color: black;
+}
+
+.header {
+    background-color: #69c2e3;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #69c2e3;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #7b2ab9;
+}

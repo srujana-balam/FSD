@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pic{
+    width: 300px;
+    height: 300px;
+    background-image: url("https://cdn.vectorstock.com/i/preview-1x/39/89/cute-teddy-bear-cartoon-with-blank-sign-vector-41083989.jpg");
+    border: 2px solid black;
+    background-size: 100% 100%;
+}
+.box{
+    width: 200px;
+    height: 80px;
+    background-color: cornflowerblue;
+    margin-top: 180px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: "Noto Sans Indic Siyaq Numbers", sans-serif;
+}
+.hours,.minutes,.seconds{
+    font-size: 40px;
+}
+b{
+    font-size: 40px;
+}

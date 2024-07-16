@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>Slick</title>
+        <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/> -->
+         <link rel="stylesheet" href="./slick-1.8.1/slick-1.8.1/slick/slick.css">
+        <link rel="stylesheet" href="slide.css">
+    </head>
+    <body>
+        <div class="parent">
+            <div class="child">1</div>
+            <div class="child">2</div>
+            <div class="child">3</div>
+            <div class="child">4</div>
+            <div class="child">5</div>
+            <div class="child">6</div>
+            <div class="child">7</div>
+            <div class="child">8</div>
+        </div>
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script>
+            $(".parent").slick({
+                slidesToShow: 3,
+                dots: true,
+                centerMode: true,
+                prevArrow: '<button class="prev"><</button>',
+                nextArrow: '<button class="prev">></button>',
+                responsive:[
+                    {
+                        breakpoint: 1024,
+                        settings:{
+                            slidesToShow: 2
+                        },
+                    },
+                    {
+                        breakpoint: 768,
+                        settings:{
+                            slidesToShow: 1
+                        }
+                    }
+                ]
+            })
+        </script>
+    </body>
+</html>
